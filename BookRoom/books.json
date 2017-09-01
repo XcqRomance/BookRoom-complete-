@@ -1,0 +1,142 @@
+[
+ {
+ "bid": 71,
+ "book_name": "Sammy Stuffit",
+ "pic": "/image/20160823/7899760bff8bc4f5b34c0ae40910da16.png",
+ "orientation": 2,
+ "is_read": true
+ },
+ {
+ "bid": 84,
+ "book_name": "Extreme Animals",
+ "pic": "/image/20160826/d51285bb636281dce6974313eaf6f15d.png",
+ "orientation": 2,
+ "is_read": false
+ },
+ {
+ "bid": 97,
+ "book_name": "The Force of Water",
+ "pic": "/image/20160906/8d4756e4e1ee555ef2fb5e2abda47afe.png",
+ "orientation": 1,
+ "is_read": true
+ },
+ {
+ "bid": 98,
+ "book_name": "Coding Camp",
+ "pic": "/image/20160906/36a3b440f054142b5b217519831fd694.png",
+ "orientation": 1,
+ "is_read": false
+ },
+ {
+ "bid": 99,
+ "book_name": "Colleen and the Leprechaun",
+ "pic": "/image/20160907/162bcef7599487fb8b470396150b3cde.png",
+ "orientation": 1,
+ "is_read": false
+ },
+ {
+ "bid": 100,
+ "book_name": "Introducing the Penny",
+ "pic": "/image/20160907/8988c19c1c2278c1b3cf23b6443d4d90.png",
+ "orientation": 1,
+ "is_read": false
+ },
+ {
+ "bid": 101,
+ "book_name": "The Buffalo Hunt",
+ "pic": "/image/20170104/5f10a8a739b94fa8eeeecd80fbf5a533.png",
+ "orientation": 1,
+ "is_read": false
+ },
+ {
+ "bid": 102,
+ "book_name": "The Fishing Derby",
+ "pic": "/image/20160907/99840ace00443b312425f7bbac50ff35.png",
+ "orientation": 1,
+ "is_read": false
+ },
+ {
+ "bid": 103,
+ "book_name": "The Mystery Wind",
+ "pic": "/image/20160907/e3083ab79162f5f99395b6cd4373e101.png",
+ "orientation": 1,
+ "is_read": false
+ },
+ {
+ "bid": 104,
+ "book_name": "The Secret Lives of Snails and Slugs",
+ "pic": "/image/20160907/8e6c661dcf4efec481e0c80ea47bf84d.png",
+ "orientation": 1,
+ "is_read": false
+ },
+ {
+ "bid": 105,
+ "book_name": "The Shepherd and the Fairy",
+ "pic": "/image/20160907/aa11a7b99a6a077b8b497ca2691f6d9e.png",
+ "orientation": 1,
+ "is_read": false
+ },
+ {
+ "bid": 106,
+ "book_name": "The UpDown Boy",
+ "pic": "/image/20160907/207a8e5a0f18ffc264e2600bacdef839.png",
+ "orientation": 1,
+ "is_read": true
+ },
+ {
+ "bid": 374,
+ "book_name": "Frogs and Toads",
+ "pic": "/image/20161012/d2c31569c0d5da96a24cd3c52307268d.png",
+ "orientation": 1,
+ "is_read": false
+ },
+ {
+ "bid": 375,
+ "book_name": "Sound All Around",
+ "pic": "/image/20161012/d379488a71bc62fea3c7f0520fdcbd73.png",
+ "orientation": 1,
+ "is_read": false
+ },
+ {
+ "bid": 396,
+ "book_name": "Let's Make Snowflakes!",
+ "pic": "/image/20161013/d54db576c3f61ad484c5f70fcf1f10c5.png",
+ "orientation": 1,
+ "is_read": true
+ },
+ {
+ "bid": 403,
+ "book_name": "Owen and the Tortoise",
+ "pic": "/image/20161013/06c90dc2c0c5319e41bd286cb1124838.png",
+ "orientation": 1,
+ "is_read": false
+ },
+ {
+ "bid": 415,
+ "book_name": "Puppets",
+ "pic": "/image/20161013/ca327d2f77e5763c701c90cb1c6aadbb.png",
+ "orientation": 2,
+ "is_read": false
+ },
+ {
+ "bid": 426,
+ "book_name": "Totem Poles",
+ "pic": "/image/20161013/f3628d0f39545921d96d3a2b132d892f.png",
+ "orientation": 1,
+ "is_read": false
+ },
+ {
+ "bid": 429,
+ "book_name": "Weird Bird Beaks",
+ "pic": "/image/20161013/640ff3e6dac8ce5161aaa3085f931c01.png",
+ "orientation": 1,
+ "is_read": false
+ },
+ {
+ "bid": 665,
+ "book_name": "About Trees",
+ "pic": "/image/20161115/bd8dcbcd5ebf2bbfff5d163366890b8e.png",
+ "orientation": 1,
+ "is_read": true
+ }
+          ]

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BookCell" id="gTV-IL-0wX" customClass="BookCell" customModule="BookRoom" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="167"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="167"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bookDefault" translatesAutoresizingMaskIntoConstraints="NO" id="qBa-6r-mhD">
+                        <rect key="frame" x="46.5" y="36" width="67" height="88"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="88" id="Ocg-gG-O4W"/>
+                            <constraint firstAttribute="width" constant="67" id="kfa-0S-r2d"/>
+                        </constraints>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bookroom_eye_index" translatesAutoresizingMaskIntoConstraints="NO" id="vL4-jj-2oD">
+                        <rect key="frame" x="68.5" y="80" width="45" height="44"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="baby animals" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhC-Lm-9P7">
+                        <rect key="frame" x="33.5" y="71.5" width="94" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6o2-KD-PsX">
+                        <rect key="frame" x="0.0" y="132" width="160" height="10"/>
+                        <color key="backgroundColor" red="0.1176470588" green="0.50196078430000002" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="dpF-np-H2y"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="vGb-5E-6Ay"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="15" id="zUk-jl-gzX"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="zUk-jl-gzX"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <exclude reference="dpF-np-H2y"/>
+                                <include reference="zUk-jl-gzX"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dDx-zf-rCV">
+                        <rect key="frame" x="0.0" y="142" width="160" height="25"/>
+                        <color key="backgroundColor" red="0.090196078430000007" green="0.42745098040000001" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="60k-X7-epm"/>
+                            <constraint firstAttribute="height" constant="25" id="KNq-36-Zdd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vL4-jj-2oD" firstAttribute="bottom" secondItem="qBa-6r-mhD" secondAttribute="bottom" id="001-vo-9aE"/>
+                <constraint firstAttribute="trailing" secondItem="6o2-KD-PsX" secondAttribute="trailing" id="1bO-Tw-D0U"/>
+                <constraint firstAttribute="bottom" secondItem="dDx-zf-rCV" secondAttribute="bottom" id="F7T-rq-GYw"/>
+                <constraint firstItem="6o2-KD-PsX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ITG-03-aDX"/>
+                <constraint firstItem="vL4-jj-2oD" firstAttribute="trailing" secondItem="qBa-6r-mhD" secondAttribute="trailing" id="QkQ-Xe-FP7"/>
+                <constraint firstItem="dDx-zf-rCV" firstAttribute="top" secondItem="6o2-KD-PsX" secondAttribute="bottom" id="lBG-ZB-RoY"/>
+                <constraint firstItem="HhC-Lm-9P7" firstAttribute="centerY" secondItem="qBa-6r-mhD" secondAttribute="centerY" id="o74-WI-aQf"/>
+                <constraint firstItem="qBa-6r-mhD" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="odm-jc-FLX"/>
+                <constraint firstAttribute="trailing" secondItem="dDx-zf-rCV" secondAttribute="trailing" id="r5k-Bh-obS"/>
+                <constraint firstItem="dDx-zf-rCV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="tOT-eJ-BtM"/>
+                <constraint firstItem="6o2-KD-PsX" firstAttribute="top" secondItem="vL4-jj-2oD" secondAttribute="bottom" constant="8" id="ude-Ey-Anq"/>
+                <constraint firstItem="HhC-Lm-9P7" firstAttribute="centerX" secondItem="qBa-6r-mhD" secondAttribute="centerX" id="xng-JR-C3T"/>
+            </constraints>
+            <size key="customSize" width="251" height="162"/>
+            <connections>
+                <outlet property="bookCover" destination="qBa-6r-mhD" id="GGu-A0-nSX"/>
+                <outlet property="bookHeight" destination="Ocg-gG-O4W" id="GjL-mJ-W4X"/>
+                <outlet property="bookWidth" destination="kfa-0S-r2d" id="VaH-in-Ni7"/>
+                <outlet property="coverName" destination="HhC-Lm-9P7" id="tHB-T6-fU4"/>
+                <outlet property="gradientView" destination="dDx-zf-rCV" id="peh-MI-Sgw"/>
+                <outlet property="isReadImageView" destination="vL4-jj-2oD" id="7QC-lR-bfs"/>
+            </connections>
+            <point key="canvasLocation" x="218" y="101"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bookDefault" width="146" height="146"/>
+        <image name="bookroom_eye_index" width="45" height="44"/>
+    </resources>
+</document>
